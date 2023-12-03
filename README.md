@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Aplicação ReactFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+A aplicação ReactFlix foi desenvolvida utilizando ReactJS com o objetivo de consumir a API "https://api.themoviedb.org/3". O principal propósito da aplicação é listar os últimos filmes lançados, permitindo aos usuários visualizar detalhes de cada filme e adicionar filmes à lista de favoritos, que é armazenada localmente no localStorage. Além disso, a aplicação é totalmente responsiva, garantindo uma experiência consistente em diferentes dispositivos através de classes TailwindCSS.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+### 1. Listagem dos Últimos Lançamentos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A página inicial da aplicação exibe uma lista dos últimos filmes lançados, obtidos através da API do The Movie Database. Cada filme é apresentado com informações básicas, como título, descrição e imagem.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Detalhes do Filme
 
-### `npm test`
+Ao clicar em um filme na lista, os usuários são redirecionados para uma página de detalhes do filme. Essa página exibe informações mais detalhadas sobre o filme, como sinopse, produtora e avaliações.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Favoritos
 
-### `npm run build`
+Os usuários têm a opção de adicionar filmes à lista de favoritos. Essa lista é armazenada localmente no localStorage, garantindo que os filmes favoritos permaneçam mesmo após o fechamento do navegador.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. Responsividade
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A aplicação foi desenvolvida com foco na responsividade, proporcionando uma experiência de usuário otimizada em dispositivos desktop e móveis.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Bibliotecas Utilizadas
 
-### `npm run eject`
+1. **tailwindcss: ^3.3.5**
+   - Utilizada para desenvolver todo o front-end da aplicação.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **axios: ^1.6.2**
+   - Utilizada para realizar requisições HTTP à API do The Movie Database.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **react-toastify: ^9.1.3**
+   - Utilizada para exibir notificações, como feedback ao usuário sobre a adição de um filme aos favoritos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **react-router-dom: ^6.20.0**
+   - Utilizada para gerenciar a navegação entre as diferentes páginas da aplicação.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Telas
 
-## Learn More
+### Tela Inicial para Desktop
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Tela Inicial para Desktop](link_da_imagem_desktop)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tela do Filme para Mobile
 
-### Code Splitting
+![Tela do Filme para Mobile](link_da_imagem_mobile)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Tela de Favoritos para Desktop
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Tela de Favoritos para Desktop](link_da_imagem_favoritos)
