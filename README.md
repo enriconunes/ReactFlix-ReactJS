@@ -40,12 +40,12 @@ A aplicação foi desenvolvida com foco na responsividade, proporcionando uma ex
 
 ### Tela Inicial para Desktop
 
-![Tela Inicial para Desktop](link_da_imagem_desktop)
+![Tela Inicial para Desktop](https://github.com/enriconunes/ReactFlix-ReactJS/blob/main/screenshot/screen1.PNG?raw=true)
 
 ### Tela do Filme para Mobile
 
-![Tela do Filme para Mobile](link_da_imagem_mobile)
+![Tela do Filme para Mobile](https://github.com/enriconunes/ReactFlix-ReactJS/blob/main/screenshot/screen2.PNG?raw=true)
 
 ### Tela de Favoritos para Desktop
 
-![Tela de Favoritos para Desktop](link_da_imagem_favoritos)
+![Tela de Favoritos para Desktop](https://github.com/enriconunes/ReactFlix-ReactJS/blob/main/screenshot/screen3.PNG?raw=true)
